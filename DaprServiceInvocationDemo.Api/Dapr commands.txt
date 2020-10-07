@@ -8,3 +8,9 @@ dapr run --app-id weather-forecast --app-port 6000 --dapr-http-port 3500 dotnet 
 
 
 dapr invokeGet --app-id weather-forecast --method weather
+
+
+
+HTTP Url
+
+    http://localhost:3500/v1.0/invoke/weather-forecast/method/weather
