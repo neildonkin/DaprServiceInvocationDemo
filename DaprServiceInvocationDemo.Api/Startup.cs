@@ -36,8 +36,6 @@ namespace DaprServiceInvocationDemo.Api
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();
