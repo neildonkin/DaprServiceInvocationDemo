@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprServiceInvocationDemo.Api", "DaprServiceInvocationDemo.Api\DaprServiceInvocationDemo.Api.csproj", "{DA0D0E83-4612-45E5-85D5-580B8EF70946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA0D0E83-4612-45E5-85D5-580B8EF70946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0D0E83-4612-45E5-85D5-580B8EF70946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0D0E83-4612-45E5-85D5-580B8EF70946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0D0E83-4612-45E5-85D5-580B8EF70946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
