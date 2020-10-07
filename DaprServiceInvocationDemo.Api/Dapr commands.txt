@@ -1,3 +1,10 @@
 NOTE: you must be in the DaprServiceInvocationDemo.Api folder for this to work
 
+
+
 dapr run --app-id weather-forecast --app-port 6000 --dapr-http-port 3500 dotnet run
+
+
+
+
+dapr invokeGet --app-id weather-forecast --method weather
