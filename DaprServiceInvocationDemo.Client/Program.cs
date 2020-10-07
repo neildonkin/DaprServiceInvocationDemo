@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Text.Json;
+using System.Threading.Tasks;
 using Dapr.Client;
+using Dapr.Client.Http;
+using DaprServiceInvocationDemo.Client.Models;
 
 namespace DaprServiceInvocationDemo.Client
 {
     class Program
     {
-        static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
@@ -19,6 +22,23 @@ namespace DaprServiceInvocationDemo.Client
             var client = new DaprClientBuilder()
                 .UseJsonSerializationOptions(jsonOptions)
                 .Build();
+
+            Console.WriteLine("Retrieving weather forecast...");
+
+            var httpExtension = new HTTPExtension
+            {
+                Verb = HTTPVerb.Get,
+                ContentType = "application/json"
+            };
+
+            var response = await client.InvokeMethodAsync<WeatherForecastModel[]>("weather-forecast", "weather", httpExtension);
+
+            Console.WriteLine("Weather forecast received:");
+
+            foreach (var thisForecast in response)
+            {
+                Console.WriteLine(thisForecast);
+            }
         }
     }
 }
