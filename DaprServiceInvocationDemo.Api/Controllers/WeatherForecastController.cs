@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace DaprServiceInvocationDemo.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("weather")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
