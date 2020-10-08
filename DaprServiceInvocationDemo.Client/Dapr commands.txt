@@ -1,0 +1,8 @@
+NOTE: you must be inside the DaprSer iceInvocationDemo.Client subfolder for this to work
+
+NOTE: the client needs no port because it is not listening for anything
+
+NOTE: if you run the client app without using "dapr run" it will fail because it will have no sidecar
+        and therefore cannot determine the service location
+
+dapr run --app-id weather-client dotnet run
