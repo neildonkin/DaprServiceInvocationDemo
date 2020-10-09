@@ -27,8 +27,7 @@ namespace DaprServiceInvocationDemo.Client
 
             var httpExtension = new HTTPExtension
             {
-                Verb = HTTPVerb.Get,
-                ContentType = "application/json"
+                Verb = HTTPVerb.Get
             };
 
             var response = await client.InvokeMethodAsync<WeatherForecastModel[]>("weather-forecast", "weather", httpExtension);
