@@ -1,4 +1,4 @@
-NOTE: you must be inside the DaprSer iceInvocationDemo.Client subfolder for this to work
+NOTE: you must be inside the DaprServiceInvocationDemo.Client subfolder for this to work
 
 NOTE: the client needs no port because it is not listening for anything
 
