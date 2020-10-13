@@ -4,9 +4,14 @@
 # when you've given us a try, we'd love to know what you think:
 #    https://aka.ms/AA7q20u
 #
-name: daprserviceinvocationdemo
+# Tye yaml file schema: https://github.com/dotnet/tye/blob/master/docs/reference/schema.md
+name: dapr-service-invocation-demo
 extensions:
   - name: dapr
+    #log-level: debug
+    #config: appconfig - this would point to an appconfig.yaml file in the components folder
 services:
-- name: daprserviceinvocationdemo-api
+- name: weather-forecast
   project: DaprServiceInvocationDemo.Api/DaprServiceInvocationDemo.Api.csproj
+  #bindings:
+  #  - port: 7000

@@ -354,3 +354,6 @@ MigrationBackup/
 
 # Rider .idea folder
 **/.idea/
+
+# Project Tye folder
+.tye
