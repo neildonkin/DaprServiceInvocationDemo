@@ -22,17 +22,13 @@ namespace DaprServiceInvocationDemo.UI.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index([FromServices]DaprClient client)
         {
             var jsonOptions = new JsonSerializerOptions()
             {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
                 PropertyNameCaseInsensitive = true,
             };
-            
-            var client = new DaprClientBuilder()
-                .UseJsonSerializationOptions(jsonOptions)
-                .Build();
             
             var httpExtension = new HTTPExtension
             {
