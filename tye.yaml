@@ -6,6 +6,8 @@
 #
 # Tye yaml file schema: https://github.com/dotnet/tye/blob/master/docs/reference/schema.md
 name: dapr-service-invocation-demo
+# NOTE: you will need to perform an "az acr login" to authenticate against the ACR instance if "tye push" fails
+registry: crneildonkin.azurecr.io
 extensions:
   - name: dapr
     #log-level: debug
