@@ -9,4 +9,8 @@
       <PackageReference Include="Dapr.Client" Version="0.11.0-preview01" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DaprServiceInvocationDemo.DomainModels\DaprServiceInvocationDemo.DomainModels.csproj" />
+    </ItemGroup>
+
 </Project>

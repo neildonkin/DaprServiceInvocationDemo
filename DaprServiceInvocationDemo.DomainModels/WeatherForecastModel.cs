@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace DaprServiceInvocationDemo.Client.Models
+namespace DaprServiceInvocationDemo.DomainModels
 {
     public class WeatherForecastModel
     {

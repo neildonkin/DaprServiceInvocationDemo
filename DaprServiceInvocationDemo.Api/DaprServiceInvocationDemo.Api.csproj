@@ -9,5 +9,9 @@
       <PackageReference Include="Grpc.AspNetCore" Version="2.32.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DaprServiceInvocationDemo.DomainModels\DaprServiceInvocationDemo.DomainModels.csproj" />
+    </ItemGroup>
+
 
 </Project>

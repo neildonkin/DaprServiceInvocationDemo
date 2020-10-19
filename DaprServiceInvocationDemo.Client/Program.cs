@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Dapr.Client;
 using Dapr.Client.Http;
-using DaprServiceInvocationDemo.Client.Models;
+using DaprServiceInvocationDemo.DomainModels;
 
 namespace DaprServiceInvocationDemo.Client
 {
