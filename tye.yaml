@@ -15,3 +15,5 @@ services:
   project: DaprServiceInvocationDemo.Api/DaprServiceInvocationDemo.Api.csproj
   #bindings:
   #  - port: 7000
+- name: weather-ui
+  project: DaprServiceInvocationDemo.UI/DaprServiceInvocationDemo.UI.csproj

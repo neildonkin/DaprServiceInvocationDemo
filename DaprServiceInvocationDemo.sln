@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprServiceInvocationDemo.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprServiceInvocationDemo.DomainModels", "DaprServiceInvocationDemo.DomainModels\DaprServiceInvocationDemo.DomainModels.csproj", "{0CE73FE7-98FA-408A-9BDA-02771AF784BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprServiceInvocationDemo.UI", "DaprServiceInvocationDemo.UI\DaprServiceInvocationDemo.UI.csproj", "{15F1824E-DBFC-4A53-94A8-B70CA307BBE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0CE73FE7-98FA-408A-9BDA-02771AF784BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE73FE7-98FA-408A-9BDA-02771AF784BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE73FE7-98FA-408A-9BDA-02771AF784BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F1824E-DBFC-4A53-94A8-B70CA307BBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F1824E-DBFC-4A53-94A8-B70CA307BBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F1824E-DBFC-4A53-94A8-B70CA307BBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F1824E-DBFC-4A53-94A8-B70CA307BBE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
