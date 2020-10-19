@@ -49,5 +49,11 @@ namespace DaprServiceInvocationDemo.UI.Controllers
         {
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
+
+        [HttpGet("healthz")]
+        public IActionResult Health()
+        {
+            return NoContent();
+        }
     }
 }
