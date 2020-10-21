@@ -24,12 +24,6 @@ namespace DaprServiceInvocationDemo.UI.Controllers
 
         public async Task<IActionResult> Index([FromServices]DaprClient client)
         {
-            var jsonOptions = new JsonSerializerOptions()
-            {
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-                PropertyNameCaseInsensitive = true,
-            };
-            
             var httpExtension = new HTTPExtension
             {
                 Verb = HTTPVerb.Get
