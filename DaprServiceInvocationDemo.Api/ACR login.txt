@@ -1,0 +1,3 @@
+If tye push fails authentication, run this command:
+
+az acr login --name crneildonkin
